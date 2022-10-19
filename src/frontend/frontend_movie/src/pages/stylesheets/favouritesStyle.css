@@ -1,0 +1,53 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.favouritesBox {
+    border: 0px solid black;
+    list-style-type : none;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-emphasis-color: black;
+    top: 10px;
+    border-spacing: 30px;
+    padding: 9px;
+    color: white;
+}
+
+.removeFavourite-button {
+    display: flex;
+    vertical-align: bottom;
+    margin-right: 0.5em;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.45);
+    width: fit-content;
+    padding-left: 20px; padding-right: 20px;
+    padding-bottom: 10px; padding-top: 10px;
+    margin-top: 1em;
+    
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: large;
+    color: white;
+}
+.removeFavourite-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+
+.favouriteTitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.wishlistPoster{
+    /* padding-bottom: -50px; */
+    margin-bottom: -7px;
+}

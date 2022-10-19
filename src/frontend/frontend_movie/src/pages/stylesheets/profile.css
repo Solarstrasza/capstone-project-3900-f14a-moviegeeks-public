@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+.profileTitle{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 150px;
+}
+
+.profileHeader{
+    margin-left: 30px;
+}
+
+.user-info-container {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    border: 0px;
+
+}
+
+
+.profile-left {
+    margin-top: 10px;
+    text-align: left;
+    flex: 1;
+    position: relative;
+    width: 35%;
+    padding: 9px;
+    display:inline-block;
+    margin-right: 23px;
+    vertical-align:top;
+    max-width: 420px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+
+
+.profile-right {
+    background-color: #252424;
+    margin-top: 10px;
+    position: relative;
+    width: 50%;
+    display:inline-block;
+    max-width: 440px;
+    color: white;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.userInfoForm {
+    box-sizing: border-box;
+	border-radius: 5px;
+	resize: none;
+	font-size: 15px;
+	line-height: 14px;
+	overflow:scroll;
+	height: 102px;
+    width: 400px;
+	padding: 8px;
+	box-shadow: 0px 4px 10px -8px black;
+    text-align: left;
+} 
+
+.userInfoDisplay {
+    box-sizing: border-box;
+	border-radius: 5px;
+	font-size: 15px;
+	line-height: 14px;
+	overflow:scroll;
+    size: small;
+	height: auto;
+    width: 400px;
+	padding: 8px;
+	box-shadow: 0px 4px 10px -8px black;
+    text-align: left;
+    pointer-events: none;
+} 
+
+.average-rating {
+    box-sizing: border-box;
+    background-color: #5B5B5B;
+    border-radius: 10px;
+    margin-top: 28px;
+    margin-bottom: 22px;
+    width: 189;
+    text-align: center;
+}
+
+.post-count {
+    width: 189;
+    box-sizing: border-box;
+    background-color: #5B5B5B;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    line-height: 150%;
+    text-align: center;
+}
+
+
+
+.profileButton {
+    margin-top: 10px;
+    margin-left: 108px;
+}
+
+#changeFile{
+    border: transparent;
+    width: 200px;
+    height: 25px;
+    align-items: center;
+    padding: 10px;
+}
+
+.MuiFormLabel-root.Mui-focused {
+    color: white !important;
+  }
+  .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: white !important;
+  }

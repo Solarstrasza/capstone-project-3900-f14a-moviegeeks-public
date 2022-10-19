@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.register {
+height: 100vh;
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.register__container {
+display: grid;
+grid-template-columns: auto;
+flex-direction: column;
+justify-content: center;
+background-color: #dcdcdc;
+padding: 30px;
+border-radius: 5px;
+}
+
+.register__textBox {
+height: 1cm;
+width: 85%;
+justify-content: center;
+border-radius: 10px;
+font-size: 18px;
+margin-bottom: 10px;
+color: black;
+font-family: 'Open Sans', sans-serif;
+}
+.register__btn {
+  width: 100%;
+  margin-left: 0.5em;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  transition: 0.3s;
+  
+}
+.register__btn:hover {
+  background-color: rgb(65, 34, 34);
+  cursor: pointer;
+}
+.register div {
+margin-top: 7px;
+}
+
+.register_text {
+font-size: 14pt;
+text-align: left;
+padding-bottom: 1em;
+}
+
+.warning_text {
+font-size: 10pt;
+color: black;
+text-align: left;
+
+}
